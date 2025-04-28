@@ -10,6 +10,12 @@
  * GNU General Public License for more details.
  */
 
+struct clk_hw;  // forward declare the struct
+
+#include <linux/clk.h>
+#include <linux/clk-provider.h>
+#include <linux/seq_file.h>
+
 #include <linux/kernel.h>
 #include <linux/init.h>
 #include <linux/err.h>
